@@ -25,7 +25,7 @@ object pepita {
 }
 
 object alpiste {
-  method energiaQueAporta() = 10
+  method energiaQueAporta() = 20
 }
 
 object miAsserter {

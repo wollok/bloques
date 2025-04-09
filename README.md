@@ -96,6 +96,36 @@ object miAsserter {
 }
 ```
 
+### Tarea
+
+Hacer que a roque se le pueda configurar una rutina de entrenamiento.
+Esa rutina debe ser un bloque
+Cuando a roque se le diga entrenar, debe ejecutar esa rutina sobre pepita.
+
+Hacer un test que configura una rutina que haga que 
+1 - pepita coma alpiste
+2 - pepita vuele 5
+La energia de pepita luego de que roque la hace entrenar deberia ser 105
+
+Hacer otro test que configura una rutina que haga:
+1 - pepita vuela 5
+2 - pepita come alpiste
+3 - pepita vuela 5
+La energia de pepita debe ser 90
+
+Hacer otro test que configura una rutina que haga:
+1 - pepita come alpiste
+2 - pepita volar 1000
+3 - pepita come alpiste
+
+Esta rutina no puede aplicarse correctamente ya que al volar 1000 lanzara un error.
+La energia de pepita quedaría en 120 ya que el primer alpiste si funcionó.
+
+Para pensar: está bien que quede en 120? que podría hacer distinto el entrenador ante un error?
+La respuesta de esto es tema de objetos 2.
+
+
+
 
 
 
